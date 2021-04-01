@@ -1,1 +1,1 @@
-.header{background-color:#eff7ab}.header .header-logo{font-size:4.0rem;color:#525252}
+.header{background-color:#eff7ab;height:120px;padding:0 20px;position:relative}.header .header-logo{font-size:4.0rem;color:#525252;height:120px;line-height:120px}.header nav .fa-bars{position:absolute;right:10px;top:40px;font-size:30px;color:#525252}.header nav .header-nav{display:none}@media screen and (min-width: 1200px){.header-logo{background-color:tomato}}
