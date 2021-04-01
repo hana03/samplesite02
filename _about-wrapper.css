@@ -1,0 +1,15 @@
+.about-wrapper {
+  margin: 0 20px;
+  text-align: center;
+}
+
+.about-wrapper .main-ttl {
+  font-size: 3.2rem;
+  margin: 30px 0;
+}
+
+.about-wrapper .sec_text {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  letter-spacing: 4px;
+}

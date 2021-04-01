@@ -1,0 +1,15 @@
+@charset "UTF-8";
+@import "_mixin.scss";
+
+.about-wrapper {
+  margin: 0 20px;
+  text-align: center;
+
+  .main-ttl {
+    @include main-ttl;
+  }
+
+  .sec_text {
+    @include sec_text;
+  }
+}
