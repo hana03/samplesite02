@@ -1,0 +1,224 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+  color: #525252;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+/* END Reset css*/
+.header {
+  background-color: #eff7ab;
+  height: 120px;
+  padding: 0 20px;
+  position: relative;
+}
+
+.header .header-logo {
+  font-size: 4.0rem;
+  color: #525252;
+  height: 120px;
+  line-height: 120px;
+}
+
+.header nav .fa-bars {
+  position: absolute;
+  right: 10px;
+  top: 40px;
+  font-size: 30px;
+  color: #525252;
+}
+
+.header nav .header-nav {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .header-logo {
+    background-color: tomato;
+  }
+}
+
+.about-wrapper {
+  margin: 0 20px;
+  text-align: center;
+}
+
+.about-wrapper .main-ttl {
+  font-size: 3.2rem;
+  margin: 30px 0;
+}
+
+.about-wrapper .sec_text {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  letter-spacing: 4px;
+}
+
+.works-wrapper {
+  margin: 0 20px;
+  text-align: center;
+}
+
+.works-wrapper .main-ttl {
+  font-size: 3.2rem;
+  margin: 30px 0;
+}
+
+.works-wrapper .sec_text {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  letter-spacing: 4px;
+}
+
+.news-wrapper {
+  margin: 0 20px;
+  text-align: center;
+}
+
+.news-wrapper .main-ttl {
+  font-size: 3.2rem;
+  margin: 30px 0;
+}
+
+.news-wrapper .news {
+  width: 100%;
+  border-top: 1px solid tomato;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-decoration: none;
+}
+
+.news-wrapper .news .date {
+  display: block;
+  font-size: 2.0rem;
+}
+
+.news-wrapper .news-bottom {
+  display: flex;
+  align-items: center;
+}
+
+.news-wrapper .news-bottom .category {
+  background-color: skyblue;
+  padding: 7px;
+  color: #fff;
+  margin-right: 18px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.news-wrapper .news-bottom .title {
+  margin-top: 20px;
+  font-size: 1.6rem;
+}
+
+.news-wrapper .sec_text {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  letter-spacing: 4px;
+}
