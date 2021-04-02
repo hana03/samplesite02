@@ -2,7 +2,7 @@
 @import "_mixin.scss";
 
 .news-wrapper {
-  margin: 0 20px;
+  margin: 0 20px 30px 20px;
   text-align: center;
 
   .main-ttl {
@@ -16,6 +16,7 @@
     flex-direction: column;
     align-items: flex-start;
     text-decoration: none;
+    padding:12px 0;
 
     // align-items: flex-start;
     // padding: 20px 0;
@@ -24,15 +25,19 @@
       font-size: 2.0rem;
     }
   }
+  .news:last-child{
+    border-bottom: 1px solid tomato;
+  }
 
   .news-bottom {
     display: flex;
     align-items:center ;
+    margin-top: 10px;
     // flex-direction: column;
 
     .category {
       background-color: skyblue;
-      padding: 7px;
+      padding: 4px;
       color: #fff;
       margin-right: 18px;
       border-radius: 5px;
