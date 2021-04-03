@@ -2,6 +2,9 @@
 
 $font-color:#525252;
 $white:#fff;
+$btn-ba:#c67978;
+$blue:skyblue;
+$red:#f05e59;
 
 @mixin inner {
   max-width: 1150px;
@@ -11,16 +14,26 @@ $white:#fff;
 @mixin fz($size: 16) {
   font-size: ($size / 10) + rem;
 }
+@mixin category($color){
+  background-color: $color;
+  padding: 4px;
+  color: $font-color;
+  margin-right: 18px;
+  border-radius: 5px;
+  font-size: 16px;
+}
 
 @mixin btn {
   display: inline-block;
   width: 250px;
   border-radius: 25px;
   padding: 17px 0;
-  color: #fff;
+  color: $white;
   text-decoration: none;
   font-size: 20px;
-  background-color: tomato;
+  font-weight: bold;
+  background-color: $btn-ba;
+  transition: .8s;
 }
 
 
