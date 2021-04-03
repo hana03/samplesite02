@@ -1,13 +1,26 @@
 @charset "UTF-8";
 
 $font-color:#525252;
+$white:#fff;
 
 @mixin inner {
-  width: 1150px;
+  max-width: 1150px;
   margin: 0 auto;
 }
+
 @mixin fz($size: 16) {
   font-size: ($size / 10) + rem;
+}
+
+@mixin btn {
+  display: inline-block;
+  width: 250px;
+  border-radius: 25px;
+  padding: 17px 0;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: tomato;
 }
 
 
@@ -22,9 +35,11 @@ $font-color:#525252;
 }
 
 @mixin sec_text {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 2.8rem;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
+  // font-family: "Noto Sans JP", sans-serif;
+
 }
 
 
