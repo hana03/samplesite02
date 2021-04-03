@@ -3,7 +3,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 180px;
+  padding-top: 280px;
   padding-bottom: 80px;
   color: #fff;
   background-attachment: fixed;
@@ -20,7 +20,7 @@
 
 @media screen and (min-width: 900px) {
   .key-visual {
-    padding-top: 290px;
+    padding-top: 330px;
     padding-bottom: 180px;
   }
 }
