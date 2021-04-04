@@ -5,6 +5,8 @@ $white:#fff;
 $btn-ba:#c67978;
 $blue:skyblue;
 $red:#f05e59;
+$pink: pink;
+
 
 @mixin inner {
   max-width: 1150px;
@@ -22,6 +24,11 @@ $red:#f05e59;
   border-radius: 5px;
   font-size: 16px;
 }
+@mixin fa($color){
+  font-size: 28px;
+  margin-right: 17px;
+  color: $color;
+}
 
 @mixin btn {
   display: inline-block;
@@ -35,16 +42,22 @@ $red:#f05e59;
   background-color: $btn-ba;
   transition: .8s;
 }
+@mixin btn-hover{
+  background-color: $white;
+  border: 1px solid $btn-ba;
+  color: $btn-ba;
+}
 
 
 @mixin main-ttl {
-  font-size: 2.8rem;
+  font-size: 3.2rem;
   letter-spacing: 3px;
-  border-bottom: 1px solid;
+  // border-bottom: 1px solid;
   padding-bottom: 2px;
   display: inline-block;
   text-align: center;
   margin: 95px 0 60px;
+  text-shadow: 5px 5px 1px #cfcccc
 }
 
 @mixin sec_text {
