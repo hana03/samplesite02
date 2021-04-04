@@ -50,6 +50,9 @@
         }
       }
     }
+    .news:hover{
+      opacity: 0.7;
+    }
 
     .news:last-child {
       border-bottom: 1px solid $font-color;
