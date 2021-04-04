@@ -1,0 +1,226 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+  color: #525252;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+/* END Reset css*/
+.header {
+  background-color: rgba(107, 128, 133, 0.9);
+  height: 80px;
+  padding: 0 20px;
+  position: relative;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+
+.header .header-logo {
+  font-size: 4.0rem;
+  color: #fff;
+  height: 80px;
+  line-height: 80px;
+}
+
+.header nav .fa-bars {
+  position: absolute;
+  right: 60px;
+  top: 25px;
+  font-size: 30px;
+  color: #fff;
+}
+
+.header nav .header-nav {
+  display: none;
+}
+
+@media screen and (min-width: 900px) {
+  .header .inner {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1150px;
+    margin: 0 auto;
+  }
+  .header .inner nav .fa-bars {
+    display: none;
+  }
+  .header .inner nav .header-nav {
+    display: block;
+    line-height: 80px;
+    height: 80px;
+  }
+  .header .inner nav .header-nav li {
+    display: inline-block;
+    padding: 0 20px;
+  }
+  .header .inner nav .header-nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.0rem;
+    line-height: 80px;
+    height: 80px;
+    display: inline-block;
+  }
+  .header .inner nav .header-nav li a:hover {
+    opacity: 0.7;
+  }
+  .header .inner nav .header-nav .fa-instagram {
+    font-size: 28px;
+    margin-right: 17px;
+    color: pink;
+  }
+  .header .inner nav .header-nav .fa-twitter {
+    font-size: 28px;
+    margin-right: 17px;
+    color: skyblue;
+  }
+}
+
+.news-key-visual {
+  margin-top: 80px;
+  margin: 0 auto;
+  padding: 6em 0 4em 0;
+  width: 600px;
+  background: linear-gradient(90deg, #ff7f82, #dcffb8);
+}
+
+.footer {
+  background-color: #252424;
+  color: #fff;
+  padding: 14px 0;
+}
+
+.footer .inner {
+  margin: 0 20px;
+}
+
+.footer .inner .footer-nav li {
+  padding: 10px 0;
+}
+
+.footer .inner .footer-nav li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2.0rem;
+}
+
+.footer .inner .footer-nav li a:hover {
+  opacity: 0.7;
+}
+
+.footer .inner p {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer .inner {
+    max-width: 1150px;
+    margin: 0 auto;
+  }
+}
