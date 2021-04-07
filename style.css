@@ -120,20 +120,48 @@ p {
   width: 100%;
 }
 
-.header .header-logo a {
+.header .inner {
+  margin-left: -20px;
+}
+
+.header .inner .header-logo a {
   font-size: 4.0rem;
   color: #fff;
   height: 80px;
   line-height: 80px;
   text-decoration: none;
+  margin-left: 20px;
 }
 
-.header nav .fa-bars {
+.header .inner .fa-bars {
   position: absolute;
   right: 60px;
   top: 25px;
   font-size: 30px;
   color: #fff;
+}
+
+.header .inner .nav-pc {
+  display: none;
+}
+
+.header .inner .nav-sp li {
+  width: 100%;
+  background-color: rgba(165, 208, 236, 0.8);
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.header .inner .nav-sp li a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  padding: 16px 0;
+}
+
+.header .inner .nav-sp li a:hover {
+  background-color: #7ac8fc;
 }
 
 @media screen and (min-width: 900px) {
@@ -143,22 +171,23 @@ p {
     max-width: 1150px;
     margin: 0 auto;
   }
-  .header .inner nav {
+  .header .inner .nav-pc {
+    display: block;
     display: flex;
   }
-  .header .inner nav .fa-bars {
+  .header .inner .nav-pc .fa-bars {
     display: none;
   }
-  .header .inner nav .header-nav {
+  .header .inner .nav-pc .header-nav {
     display: block;
     line-height: 80px;
     height: 80px;
   }
-  .header .inner nav .header-nav li {
+  .header .inner .nav-pc .header-nav li {
     display: inline-block;
     padding: 0 20px;
   }
-  .header .inner nav .header-nav li a {
+  .header .inner .nav-pc .header-nav li a {
     text-decoration: none;
     color: #fff;
     font-size: 2.0rem;
@@ -166,34 +195,37 @@ p {
     height: 80px;
     display: inline-block;
   }
-  .header .inner nav .header-nav li a:hover {
+  .header .inner .nav-pc .header-nav li a:hover {
     opacity: 0.7;
   }
-  .header .inner nav a {
+  .header .inner .nav-pc a {
     line-height: 92px;
     height: 80px;
   }
-  .header .inner nav a .fa-instagram {
+  .header .inner .nav-pc a .fa-instagram {
     font-size: 28px;
     padding: 0 16px;
     color: pink;
     align-self: center;
   }
-  .header .inner nav a:hover {
+  .header .inner .nav-pc a:hover {
     opacity: 0.7;
   }
-  .header .inner nav a {
+  .header .inner .nav-pc a {
     line-height: 92px;
     height: 80px;
   }
-  .header .inner nav a .fa-twitter {
+  .header .inner .nav-pc a .fa-twitter {
     font-size: 28px;
     padding: 0 16px;
     color: skyblue;
     align-self: center;
   }
-  .header .inner nav a:hover {
+  .header .inner .nav-pc a:hover {
     opacity: 0.7;
+  }
+  .header .inner .nav-sp {
+    display: none;
   }
 }
 
