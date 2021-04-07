@@ -120,11 +120,12 @@ p {
   width: 100%;
 }
 
-.header .header-logo {
+.header .header-logo a {
   font-size: 4.0rem;
   color: #fff;
   height: 80px;
   line-height: 80px;
+  text-decoration: none;
 }
 
 .header nav .fa-bars {
@@ -135,16 +136,15 @@ p {
   color: #fff;
 }
 
-.header nav .header-nav {
-  display: none;
-}
-
 @media screen and (min-width: 900px) {
   .header .inner {
     display: flex;
     justify-content: space-between;
     max-width: 1150px;
     margin: 0 auto;
+  }
+  .header .inner nav {
+    display: flex;
   }
   .header .inner nav .fa-bars {
     display: none;
@@ -169,15 +169,31 @@ p {
   .header .inner nav .header-nav li a:hover {
     opacity: 0.7;
   }
-  .header .inner nav .header-nav .fa-instagram {
-    font-size: 28px;
-    margin-right: 17px;
-    color: pink;
+  .header .inner nav a {
+    line-height: 92px;
+    height: 80px;
   }
-  .header .inner nav .header-nav .fa-twitter {
+  .header .inner nav a .fa-instagram {
     font-size: 28px;
-    margin-right: 17px;
+    padding: 0 16px;
+    color: pink;
+    align-self: center;
+  }
+  .header .inner nav a:hover {
+    opacity: 0.7;
+  }
+  .header .inner nav a {
+    line-height: 92px;
+    height: 80px;
+  }
+  .header .inner nav a .fa-twitter {
+    font-size: 28px;
+    padding: 0 16px;
     color: skyblue;
+    align-self: center;
+  }
+  .header .inner nav a:hover {
+    opacity: 0.7;
   }
 }
 
@@ -382,6 +398,8 @@ p {
   background-color: #fff;
   border: 1px solid #c67978;
   color: #c67978;
+  width: 249px;
+  padding: 16px 0;
 }
 
 .news-wrapper .sec_text {
@@ -475,6 +493,8 @@ p {
   background-color: #fff;
   border: 1px solid #c67978;
   color: #c67978;
+  width: 249px;
+  padding: 16px 0;
 }
 
 @media screen and (min-width: 900px) {
