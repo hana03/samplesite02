@@ -1,7 +1,74 @@
 .news-key-visual {
-  margin-top: 80px;
-  margin: 0 auto;
-  padding-top: 200px;
-  width: 600px;
-  background: linear-gradient(90deg, #ff7f82, #dcffb8);
+  padding-top: 50px;
+  width: 100%;
+  background: linear-gradient(90deg, #f1f1e8, #f3e5a7, #f0efb2);
+}
+
+.news-key-visual .main-ttl {
+  font-size: 3.2rem;
+  letter-spacing: 3px;
+  padding-bottom: 2px;
+  display: inline-block;
+  text-align: center;
+  margin: 95px 0 60px;
+  text-shadow: 5px 5px 1px #cfcccc;
+  text-shadow: none;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+
+.main .inner {
+  margin: 0 20px;
+}
+
+.main .inner .news-nav {
+  margin: 20px;
+}
+
+.main .inner .news-nav li {
+  display: inline-block;
+}
+
+.main .inner .news-nav li a {
+  color: #525252;
+  font-size: 2.0rem;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.main .inner .news-nav li .fa-angle-right {
+  color: #525252;
+  font-size: 1.8rem;
+  margin-right: 10px;
+}
+
+.main .inner .article {
+  background-color: #f0f1b1;
+  margin: 0 20px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.main .inner .article .main-ttl {
+  font-size: 3.6rem;
+  border-left: aqua solid 2px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.main .inner .article .main-text {
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  letter-spacing: 2px;
+}
+
+@media screen and (min-width: 900px) {
+  .news-key-visual .inner {
+    max-width: 1150px;
+    margin: 0 auto;
+  }
+  .main .inner {
+    max-width: 1150px;
+    margin: 0 auto;
+  }
 }

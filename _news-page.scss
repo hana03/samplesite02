@@ -1,10 +1,67 @@
 @charset "UTF-8";
 @import "_mixin.scss";
 
-.news-key-visual{
-  margin-top: 80px;
-  margin: 0 auto;
-  padding-top: 200px;
-  width: 600px;
-  background: linear-gradient(90deg, #ff7f82,#dcffb8);
+.news-key-visual {
+  @include key-visual;
+
+  .main-ttl {
+    @include main-ttl;
+    text-shadow: none;
+    padding-bottom: 30px;
+    padding-left: 30px;
+  }
+}
+
+.main {
+  .inner {
+    margin: 0 20px;
+
+    .news-nav {
+      margin: 20px;
+
+      li {
+        display: inline-block;
+
+        a {
+          @include news-nav;
+        }
+
+        .fa-angle-right {
+          @include fa-angle-right;
+        }
+      }
+    }
+
+    .article {
+      background-color: rgb(240, 241, 177);
+      margin: 0 20px;
+      padding: 20px;
+      margin-bottom: 40px;
+
+      .main-ttl {
+        font-size: 3.6rem;
+        border-left: aqua solid 2px;
+        padding-left: 20px;
+        margin-bottom: 20px;
+      }
+
+      .main-text {
+        @include sec_text;
+      }
+    }
+  }
+}
+
+@include tb {
+  .news-key-visual {
+    .inner {
+      @include inner;
+    }
+  }
+
+  .main {
+    .inner {
+      @include inner;
+    }
+  }
 }
