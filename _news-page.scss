@@ -67,8 +67,6 @@
         line-height: 3.8rem;
         letter-spacing: 3px;
         font-weight: normal;
-
-
       }
 
       .main-text {
@@ -89,18 +87,19 @@
   .main {
     .inner {
       @include inner;
-      .article{
+
+      .article {
 
         .date-flex {
           flex-direction: row;
           align-items: baseline;
-          .category{
+
+          .category {
             // align-items: center;
             margin-left: 20px;
           }
         }
       }
-
     }
   }
 }
