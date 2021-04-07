@@ -29,9 +29,6 @@
       color: $white;
     }
 
-    // .header-nav ,.fa-instagram ,.fa-twitter{
-    //   display: none;
-    // }
   }
 }
 
@@ -74,14 +71,15 @@
         }
 
         a {
-      @include fa-a;
+          @include fa-a;
 
           .fa-instagram {
             @include fa($pink);
             align-self: center;
           }
         }
-        a:hover{
+
+        a:hover {
           opacity: 0.7;
         }
 
@@ -93,7 +91,8 @@
             align-self: center;
           }
         }
-        a:hover{
+
+        a:hover {
           opacity: 0.7;
         }
       }
