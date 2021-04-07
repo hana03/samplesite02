@@ -50,7 +50,8 @@
         }
       }
     }
-    .news:hover{
+
+    .news:hover {
       opacity: 0.7;
     }
 
@@ -76,7 +77,8 @@
 @include tb {
   .news-wrapper {
     @include inner;
-    .btn{
+
+    .btn {
       margin-top: 50px;
     }
   }
