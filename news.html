@@ -9,14 +9,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
   <link href="news-style.css" rel="stylesheet">
-  <link href="style.css" rel="stylesheet">
+  <!-- <link href="style.css" rel="stylesheet"> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 
 <body>
   <header class="header">
     <div class="inner">
-      <h1 class="header-logo">Sample site</h1>
+      <h1 class="header-logo"><a href="index.html">Sample site</a></h1>
       <nav>
         <i class="fas fa-bars"></i>
         <ul class="header-nav">
@@ -24,32 +24,48 @@
           <li><a href="#works">Works</a></li>
           <li><a href="#news">News</a></li>
           <li><a href="#contact">Contact</a></li>
-  
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-twitter"></i>
-  
         </ul><!-- header-nav -->
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/ri_ri0315" target="_blank"><i class="fab fa-twitter"></i></a>
       </nav>
+    </div><!-- inner -->
+  </header><!-- header -->
 
     </div>
   </header><!-- header -->
 
   <div class="news-key-visual">
+    <div class="inner">
+      <h2 class="main-ttl">News</h2>
+    </div>
    </div>
 
   <main class="main">
-    <h2>たいとるがはいります</h2>
-    <p>テキストがはいりますテキストがはいりますテキストがはいりますテキストがはいります</p>
+    <div class="inner">
+      <ul class="news-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><i class="fas fa-angle-right"></i></li>
+        <li><a href="articles.html">News</a></li>
+      </ul>
+      <div class="article">
+          <h2 class="main-ttl">たいとるがはいります</h2>
+        <p class="main-text">テキストがはいりますテキストがはいりますテキストがはいりますテキストがはいります</p>
+        <h2 class="main-ttl">たいとるがはいります</h2>
+        <p class="main-text">テキストがはいりますテキストがはいりますテキストがはいりますテキストがはいります</p>
+      </div>
+
+    </div>
+    
     </main><!-- main -->
 
   <footer class="footer">
     <div class="inner">
       <nav>
         <ul class="footer-nav">
-          <li><a href="#about">About</a></li>
-          <li><a href="#works">Works</a></li>
-          <li><a href="#news">News</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#works">Works</a></li>
+          <li><a href="index.html#news">News</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
         </ul>
       </nav>
       <p><small>Copyright © 2021 Rika-Sample site.</small></p>
