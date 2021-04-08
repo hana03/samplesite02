@@ -82,31 +82,20 @@
       margin: 20px 0 50px 0;
       text-align: center;
 
-      span {      
-        a{
-          font-size: 13px;
-          color: r$font-color;
-          text-decoration: none;
-          display: inline-block;
-          padding: 10px 16px;
-          border-radius: 3px;
-          border: 1px solid $font-color;
-          background-color: $white;
+      span {
+        a {
+          @include span-a;
+
           .fa-angle-right {
             font-size: 13px;
             margin-right: 0;
           }
         }
-        a:hover{
-          // .fa-angle-right:hover {
-            background-color: $btn-ba;
-            color: $white;
-            border: 1px solid $btn-ba;
-          }
 
+        a:hover {
+          @include span-a-hov;
+        }
       }
-
-      
     }
   }
 }
