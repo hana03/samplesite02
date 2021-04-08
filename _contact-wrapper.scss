@@ -13,6 +13,7 @@
 
     }
   }
+
   .label {
     font-size: 1.8rem;
     display: block;
@@ -23,23 +24,24 @@
       width: 94%;
       padding: 10px;
     }
+
     .contact-name {
       display: inline-block;
       width: 110px;
       letter-spacing: 2px;
       margin-bottom: 8px;
     }
-
   }
 
-  .message{
+  .message {
     display: inline-block;
     width: 110px;
     letter-spacing: 2px;
     margin-bottom: 8px;
     font-size: 1.8rem;
   }
-  textarea{
+
+  textarea {
     width: 97%;
     height: 80px;
     margin-bottom: 30px;
@@ -56,15 +58,17 @@
 
     .btn:hover {
       @include btn-hover;
-      }
+    }
   }
 }
-@include tb{
-  .contact-wrapper{
+
+@include tb {
+  .contact-wrapper {
     @include inner;
     width: 700px;
     margin-bottom: 100px;
-    .btn{
+
+    .btn {
       margin-top: 50px;
     }
   }
