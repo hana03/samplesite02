@@ -94,6 +94,23 @@ $pink: pink;
   margin-right: 10px;
 }
 
+@mixin span-a{
+  font-size: 13px;
+  color: r$font-color;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 3px;
+  border: 1px solid $font-color;
+  background-color: $white;
+}
+
+@mixin span-a-hov{
+  background-color: $btn-ba;
+  color: $white;
+  border: 1px solid $btn-ba;
+}
+
 @mixin pc {
   @media screen and (min-width:1200px) {
     @content;
