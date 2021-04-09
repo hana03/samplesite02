@@ -33,10 +33,6 @@
   display: none;
 }
 
-.header .inner .nav-sp {
-  height: 100vw;
-}
-
 .header .inner .nav-sp li {
   width: 100%;
   background-color: rgba(165, 208, 236, 0.8);
