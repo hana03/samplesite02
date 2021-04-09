@@ -37,6 +37,8 @@
     }
 
     .nav-sp {
+      height: 100vw;
+
       li {
         width: 100%;
         background-color: rgba(165, 208, 236, 0.8);
@@ -49,7 +51,6 @@
           display: inline-block;
           width: 100%;
           padding: 16px 0;
-
         }
 
         a:hover {
