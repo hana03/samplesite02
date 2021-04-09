@@ -147,7 +147,7 @@ p {
 
 .header .inner .nav-sp li {
   width: 100%;
-  background-color: rgba(165, 208, 236, 0.8);
+  background-color: rgba(45, 49, 48, 0.8);
   text-align: center;
   font-size: 1.8rem;
 }
@@ -162,6 +162,7 @@ p {
 
 .header .inner .nav-sp li a:hover {
   background-color: #7ac8fc;
+  color: #525252;
 }
 
 @media screen and (min-width: 900px) {

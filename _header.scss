@@ -41,7 +41,7 @@
 
       li {
         width: 100%;
-        background-color: rgba(165, 208, 236, 0.8);
+        background-color: rgba(45, 49, 48, 0.8);
         text-align: center;
         font-size: 1.8rem;
 
@@ -51,10 +51,12 @@
           display: inline-block;
           width: 100%;
           padding: 16px 0;
+          
         }
 
         a:hover {
           background-color: rgb(122, 200, 252);
+          color: $font-color;
           // color: $blue;
 
         }
