@@ -23,17 +23,15 @@
         margin-left: 20px;
       }
     }
-
-    .fa-bars {
-      position: absolute;
-      right: 60px;
-      top: 25px;
-      font-size: 30px;
-      color: $white;
-    }
-
-    .nav-pc {
-      display: none;
+    .nav-pc{
+      // display: none;
+      .fa-bars {
+        position: absolute;
+        right: 60px;
+        top: 25px;
+        font-size: 30px;
+        color: $white;
+      }
     }
 
     .nav-sp {

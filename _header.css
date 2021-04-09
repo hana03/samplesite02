@@ -21,16 +21,12 @@
   margin-left: 20px;
 }
 
-.header .inner .fa-bars {
+.header .inner .nav-pc .fa-bars {
   position: absolute;
   right: 60px;
   top: 25px;
   font-size: 30px;
   color: #fff;
-}
-
-.header .inner .nav-pc {
-  display: none;
 }
 
 .header .inner .nav-sp li {
