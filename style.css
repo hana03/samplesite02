@@ -405,20 +405,22 @@ p {
 
 .news-wrapper .news-list .news .news-bottom .category-news {
   background-color: skyblue;
-  padding: 4px;
+  padding: 8px;
   color: #525252;
   margin-right: 18px;
   border-radius: 5px;
   font-size: 16px;
+  letter-spacing: 1px;
 }
 
 .news-wrapper .news-list .news .news-bottom .category-topic {
   background-color: #f05e59;
-  padding: 4px;
+  padding: 8px;
   color: #525252;
   margin-right: 18px;
   border-radius: 5px;
   font-size: 16px;
+  letter-spacing: 1px;
 }
 
 .news-wrapper .news-list .news .news-bottom .title {
@@ -435,7 +437,7 @@ p {
 
 .news-wrapper .btn {
   display: inline-block;
-  width: 250px;
+  width: 260px;
   border-radius: 25px;
   padding: 17px 0;
   color: #fff;
@@ -529,7 +531,7 @@ p {
 
 .contact-wrapper .contact-btn .btn {
   display: inline-block;
-  width: 250px;
+  width: 260px;
   border-radius: 25px;
   padding: 17px 0;
   color: #fff;

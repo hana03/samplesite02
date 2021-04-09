@@ -18,11 +18,12 @@ $pink: pink;
 
 @mixin category($color) {
   background-color: $color;
-  padding: 4px;
+  padding: 8px;
   color: $font-color;
   margin-right: 18px;
   border-radius: 5px;
   font-size: 16px;
+  letter-spacing: 1px;
 }
 
 @mixin fa-a{
@@ -56,7 +57,7 @@ $pink: pink;
 
 @mixin btn {
   display: inline-block;
-  width: 250px;
+  width: 260px;
   border-radius: 25px;
   padding: 17px 0;
   color: $white;
@@ -97,7 +98,7 @@ $pink: pink;
 
 @mixin span-a{
   font-size: 13px;
-  color: r$font-color;
+  color: $font-color;
   text-decoration: none;
   display: inline-block;
   padding: 10px 16px;
