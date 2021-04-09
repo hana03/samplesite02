@@ -442,7 +442,6 @@ p {
   font-size: 20px;
   font-weight: bold;
   background-color: #c67978;
-  transition: .8s;
 }
 
 .news-wrapper .btn:hover {
@@ -537,7 +536,6 @@ p {
   font-size: 20px;
   font-weight: bold;
   background-color: #c67978;
-  transition: .8s;
   border-radius: 2px;
 }
 
