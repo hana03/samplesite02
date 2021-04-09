@@ -125,7 +125,7 @@ p {
 }
 
 .header .inner .header-logo a {
-  font-size: 4.0rem;
+  font-size: 3.0rem;
   color: #fff;
   height: 80px;
   line-height: 80px;
@@ -133,12 +133,16 @@ p {
   margin-left: 20px;
 }
 
-.header .inner .nav-pc .fa-bars {
+.header .inner .fa-bars {
   position: absolute;
   right: 60px;
   top: 25px;
   font-size: 30px;
   color: #fff;
+}
+
+.header .inner .nav-pc {
+  display: none;
 }
 
 .header .inner .nav-sp li {
@@ -166,6 +170,9 @@ p {
     justify-content: space-between;
     max-width: 1150px;
     margin: 0 auto;
+  }
+  .header .inner .header-logo a {
+    font-size: 4.0rem;
   }
   .header .inner .nav-pc {
     display: block;
