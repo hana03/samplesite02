@@ -117,23 +117,52 @@ p {
   position: relative;
   position: fixed;
   z-index: 100;
-  width: 100%;
+  min-width: 100%;
 }
 
-.header .header-logo a {
-  font-size: 4.0rem;
+.header .inner {
+  margin-left: -20px;
+}
+
+.header .inner .header-logo a {
+  font-size: 3.0rem;
   color: #fff;
   height: 80px;
   line-height: 80px;
   text-decoration: none;
+  margin-left: 20px;
 }
 
-.header nav .fa-bars {
+.header .inner .fa-bars {
   position: absolute;
   right: 60px;
   top: 25px;
   font-size: 30px;
   color: #fff;
+}
+
+.header .inner .nav-pc {
+  display: none;
+}
+
+.header .inner .nav-sp li {
+  width: 100%;
+  background-color: rgba(45, 49, 48, 0.8);
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.header .inner .nav-sp li a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  padding: 16px 0;
+}
+
+.header .inner .nav-sp li a:hover {
+  background-color: #7ac8fc;
+  color: #525252;
 }
 
 @media screen and (min-width: 900px) {
@@ -143,22 +172,26 @@ p {
     max-width: 1150px;
     margin: 0 auto;
   }
-  .header .inner nav {
+  .header .inner .header-logo a {
+    font-size: 4.0rem;
+  }
+  .header .inner .nav-pc {
+    display: block;
     display: flex;
   }
-  .header .inner nav .fa-bars {
+  .header .inner .nav-pc .fa-bars {
     display: none;
   }
-  .header .inner nav .header-nav {
+  .header .inner .nav-pc .header-nav {
     display: block;
     line-height: 80px;
     height: 80px;
   }
-  .header .inner nav .header-nav li {
+  .header .inner .nav-pc .header-nav li {
     display: inline-block;
     padding: 0 20px;
   }
-  .header .inner nav .header-nav li a {
+  .header .inner .nav-pc .header-nav li a {
     text-decoration: none;
     color: #fff;
     font-size: 2.0rem;
@@ -166,34 +199,37 @@ p {
     height: 80px;
     display: inline-block;
   }
-  .header .inner nav .header-nav li a:hover {
+  .header .inner .nav-pc .header-nav li a:hover {
     opacity: 0.7;
   }
-  .header .inner nav a {
+  .header .inner .nav-pc a {
     line-height: 92px;
     height: 80px;
   }
-  .header .inner nav a .fa-instagram {
+  .header .inner .nav-pc a .fa-instagram {
     font-size: 28px;
     padding: 0 16px;
     color: pink;
     align-self: center;
   }
-  .header .inner nav a:hover {
+  .header .inner .nav-pc a:hover {
     opacity: 0.7;
   }
-  .header .inner nav a {
+  .header .inner .nav-pc a {
     line-height: 92px;
     height: 80px;
   }
-  .header .inner nav a .fa-twitter {
+  .header .inner .nav-pc a .fa-twitter {
     font-size: 28px;
     padding: 0 16px;
     color: skyblue;
     align-self: center;
   }
-  .header .inner nav a:hover {
+  .header .inner .nav-pc a:hover {
     opacity: 0.7;
+  }
+  .header .inner .nav-sp {
+    display: none;
   }
 }
 
@@ -212,7 +248,6 @@ p {
   margin: 95px 0 60px;
   text-shadow: 5px 5px 1px #cfcccc;
   text-shadow: none;
-  padding-bottom: 30px;
   padding-left: 30px;
 }
 
@@ -274,24 +309,26 @@ p {
 
 .main .inner .news-list .news .news-bottom .category-news {
   background-color: skyblue;
-  padding: 4px;
+  padding: 8px;
   color: #525252;
   margin-right: 18px;
   border-radius: 5px;
   font-size: 16px;
+  letter-spacing: 1px;
 }
 
 .main .inner .news-list .news .news-bottom .category-topic {
   background-color: #f05e59;
-  padding: 4px;
+  padding: 8px;
   color: #525252;
   margin-right: 18px;
   border-radius: 5px;
   font-size: 16px;
+  letter-spacing: 1px;
 }
 
 .main .inner .news-list .news .news-bottom .title {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 .main .inner .news:last-child {
@@ -305,7 +342,7 @@ p {
 
 .main .inner .page-list span a {
   font-size: 13px;
-  color: r #525252;
+  color: #525252;
   text-decoration: none;
   display: inline-block;
   padding: 10px 16px;
@@ -326,9 +363,16 @@ p {
 }
 
 @media screen and (min-width: 900px) {
+  .news-key-visual {
+    padding-top: 20px;
+  }
   .news-key-visual .inner {
     max-width: 1150px;
     margin: 0 auto;
+  }
+  .news-key-visual .main-ttl {
+    padding-left: 0;
+    padding-top: 20px;
   }
   .main .inner {
     max-width: 1150px;
@@ -363,6 +407,7 @@ p {
 .footer .inner p {
   text-align: center;
   font-size: 1.4rem;
+  margin: 30px 0 20px 0;
 }
 
 @media screen and (min-width: 1200px) {

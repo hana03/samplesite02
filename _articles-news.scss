@@ -7,7 +7,7 @@
   .main-ttl {
     @include main-ttl;
     text-shadow: none;
-    padding-bottom: 30px;
+    // padding-bottom: 20px;
     padding-left: 30px;
   }
 }
@@ -68,7 +68,7 @@
           }
 
           .title {
-            font-size: 1.4rem;
+            font-size: 1.6rem;
           }
         }
       }
@@ -81,11 +81,11 @@
     .page-list {
       margin: 20px 0 50px 0;
       text-align: center;
-
+      
       span {      
         a{
           font-size: 13px;
-          color: r$font-color;
+          color: $font-color;
           text-decoration: none;
           display: inline-block;
           padding: 10px 16px;
@@ -103,18 +103,20 @@
             color: $white;
             border: 1px solid $btn-ba;
           }
-
-      }
-
-      
+      }     
     }
   }
 }
 
 @include tb {
   .news-key-visual {
+    padding-top: 20px;
     .inner {
       @include inner;
+    }
+    .main-ttl{
+      padding-left:0;
+      padding-top:20px;
     }
   }
 
