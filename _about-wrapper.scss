@@ -13,6 +13,12 @@
     @include sec_text;
   }
 }
-@include pc{
-  
+
+@include tb {
+  .about-wrapper {
+    .sec_text {
+      width: 800px;
+      margin: 0 auto;
+    }
+  }
 }
