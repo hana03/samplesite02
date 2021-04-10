@@ -8,7 +8,7 @@
   <meta name="author" content="Rika Oishi">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-  <link href="news-style.css" rel="stylesheet">
+  <link href="_news-style.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 
@@ -16,7 +16,8 @@
   <header class="header">
     <div class="inner">
       <h1 class="header-logo"><a href="index.html">Sample site</a></h1>
-      <nav>
+
+      <nav class="nav-pc">
         <i class="fas fa-bars"></i>
         <ul class="header-nav">
           <li><a href="index.html#about">About</a></li>
@@ -24,14 +25,25 @@
           <li><a href="index.html#news">News</a></li>
           <li><a href="index.html#contact">Contact</a></li>
         </ul><!-- header-nav -->
-        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href="https://www.instagram.com/rika.ri" target="_blank"><i class="fab fa-instagram"></i></a>
         <a href="https://twitter.com/ri_ri0315" target="_blank"><i class="fab fa-twitter"></i></a>
-      </nav>
+      </nav><!-- nav-pc -->
+
+      <nav class="nav-sp">
+        <i class="fas fa-bars"></i>
+        <ul class="header-nav-sp">
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#works">Works</a></li>
+          <li><a href="index.html#news">News</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+          <li><a href="https://www.instagram.com/rika.ri" target="_blank"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="https://twitter.com/ri_ri0315" target="_blank"><i class="fab fa-twitter"></i></a></li>
+        </ul><!-- header-nav -->
+      </nav><!-- nav-sp -->
+
     </div><!-- inner -->
   </header><!-- header -->
 
-    </div>
-  </header><!-- header -->
 
   <div class="news-key-visual">
     <div class="inner">
@@ -45,6 +57,8 @@
         <li><a href="index.html">Home</a></li>
         <li><i class="fas fa-angle-right"></i></li>
         <li><a href="articles.html">News</a></li>
+        <li><i class="fas fa-angle-right"></i></li>
+        <li><a href="news.html">Sampletitle</a></li>
       </ul>
       <div class="article">
         <div class="date-flex">
@@ -52,11 +66,11 @@
           <span class="category-news category">News</span>
         </div><!-- date-flex -->
 
-          <h2 class="main-ttl">たいとるがはいります</h2>
+          <h2 class="main-ttl">Sampletitle</h2>
         <p class="main-text">テキストがはいりますテキストがはいりますテキストがはいりますテキストがはいりますテキストがはいりますテキストがはいりますテキストがはいりますテキストがはいります</p>
         <p class="main-text">テキストがはいりますテキストがはいりますテキストがはいりますテキストがはいります<br>テキストがはいりますテキストがはいりますテキストがはいりますテキストがはいりますテキストがはいりますテキストがはいりますテキストがはいりますテキストがはいります</p>
         
-        <h2 class="main-ttl">たいとるがはいります</h2>
+        <h2 class="main-ttl">Sampletitle</h2>
         <p class="main-text">テキストがはいりますテキストがはいりますテキストがはいりますテキストがはいります</p>
       </div>
 
@@ -78,7 +92,7 @@
 
     </div>
   </footer>
-
+  <script src="sqript.js"></script>
 </body>
 
 </html>

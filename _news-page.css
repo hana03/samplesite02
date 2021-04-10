@@ -13,7 +13,6 @@
   margin: 95px 0 60px;
   text-shadow: 5px 5px 1px #cfcccc;
   text-shadow: none;
-  padding-bottom: 30px;
   padding-left: 30px;
 }
 
@@ -62,22 +61,24 @@
 
 .main .inner .article .date-flex .category-news {
   background-color: skyblue;
-  padding: 4px;
+  padding: 8px;
   color: #525252;
   margin-right: 18px;
   border-radius: 5px;
   font-size: 16px;
+  letter-spacing: 1px;
   display: inline-block;
   width: 44px;
 }
 
 .main .inner .article .date-flex .category-topic {
   background-color: #f05e59;
-  padding: 4px;
+  padding: 8px;
   color: #525252;
   margin-right: 18px;
   border-radius: 5px;
   font-size: 16px;
+  letter-spacing: 1px;
   display: inline-block;
   width: 44px;
 }
@@ -93,6 +94,7 @@
   font-size: 1.6rem;
   line-height: 2.8rem;
   letter-spacing: 2px;
+  margin-bottom: 12px;
   margin-bottom: 14px;
 }
 
