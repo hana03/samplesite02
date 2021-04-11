@@ -18,7 +18,7 @@
     margin: 0 20px;
 
     .news-nav {
-      margin: 20px;
+      margin: 20px 0;
 
       li {
         display: inline-block;
@@ -55,22 +55,7 @@
       }
     }
 
-    .page-list {
-      margin: 20px 0 50px 0;
-      text-align: center;
 
-      span {
-        a {
-          @include span-a;
-          width: 40px;
-          color: $font-color;
-        }
-
-        a:hover {
-          @include span-a-hov;
-        }
-      }
-    }
   }
 }
 
@@ -91,7 +76,6 @@
 
     }
   }
-
 
     .inner {
       @include inner;
