@@ -266,9 +266,13 @@ p {
 
 .main .inner .news-nav li a {
   color: #525252;
-  font-size: 2.0rem;
+  font-size: 1.6rem;
   margin-right: 10px;
   text-decoration: none;
+}
+
+.main .inner .news-nav li a:hover {
+  opacity: 0.7;
 }
 
 .main .inner .fa-angle-right {
@@ -276,7 +280,7 @@ p {
   font-size: 1.8rem;
   margin-right: 10px;
   color: #525252;
-  font-size: 2.0rem;
+  font-size: 1.6rem;
   margin-right: 10px;
   text-decoration: none;
 }
@@ -329,6 +333,10 @@ p {
 
 .main .inner .news-list .news .news-bottom .title {
   font-size: 1.6rem;
+}
+
+.main .inner .news-list a:hover {
+  opacity: 0.7;
 }
 
 .main .inner .news:last-child {

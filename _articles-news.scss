@@ -26,6 +26,9 @@
         a {
           @include news-nav;
         }
+        a:hover{
+          opacity: 0.7;
+        }
       }
     }
 
@@ -71,6 +74,9 @@
             font-size: 1.6rem;
           }
         }
+      }
+      a:hover{
+        opacity: 0.7;
       }
     }
 

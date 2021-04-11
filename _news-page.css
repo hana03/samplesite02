@@ -30,9 +30,13 @@
 
 .main .inner .news-nav li a {
   color: #525252;
-  font-size: 2.0rem;
+  font-size: 1.6rem;
   margin-right: 10px;
   text-decoration: none;
+}
+
+.main .inner .news-nav li a:hover {
+  opacity: 0.7;
 }
 
 .main .inner .news-nav li .fa-angle-right {
@@ -43,7 +47,6 @@
 
 .main .inner .article {
   margin: 0 20px;
-  padding: 20px;
   margin-bottom: 40px;
 }
 
@@ -106,6 +109,9 @@
   .main .inner {
     max-width: 1150px;
     margin: 0 auto;
+  }
+  .main .inner .article {
+    padding: 20px;
   }
   .main .inner .article .date-flex {
     flex-direction: row;
